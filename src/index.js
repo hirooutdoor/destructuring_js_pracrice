@@ -31,6 +31,7 @@ const {
 const {
   coloursByPopularity: [hondaTopColour]
 } = honda;
+
 const {
   coloursByPopularity: [teslaTopColour]
 } = tesla;
@@ -40,6 +41,7 @@ ReactDOM.render(
     <tr>
       <th>Brand</th>
       <th>Top Speed</th>
+      <th>Body color</th>
     </tr>
     <tr>
       <td>{tesla.model}</td>
